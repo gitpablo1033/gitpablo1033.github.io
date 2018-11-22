@@ -1,0 +1,283 @@
+body {
+    margin: 0 auto;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(images/PUT%20YOUR%20IMAGE%20HERE.png) no-repeat center;
+    height: 600px;
+
+
+}
+
+.main-overlay {
+    background-image: -moz-linear-gradient(0deg, rgb(9, 5, 47) 0%, rgb(49, 29, 94) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(9, 5, 47) 0%, rgb(49, 29, 94) 100%);
+    background-image: -ms-linear-gradient(0deg, rgb(9, 5, 47) 0%, rgb(49, 29, 94) 100%);
+    opacity: 0.6;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 600px;
+    z-index: 0;
+}
+
+.header {
+    display: flex;
+    width: 90%;
+    height: 20vh;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    z-index: 5;
+
+
+
+}
+
+.menu {
+    width: 70%;
+
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+
+}
+
+.menu-link {
+    color: white;
+    text-decoration: none;
+
+
+}
+
+.home-btn {
+    color: #00e0d0;
+    border: 1px solid #00e0d0;
+    border-radius: 50px;
+    padding: 10px 20px;
+}
+
+.learn-btn:hover {
+    border-bottom: 1px solid #00e0d0;
+
+}
+
+.main-text {
+    display: flex;
+    flex-direction: column;
+    padding: 250px;
+    align-items: center;
+    text-align: center;
+    color: white;
+    z-index: 3;
+}
+
+.main-text h1::after {
+    content: "";
+    width: 500px;
+    height: 2px;
+    background-color: #00e0d0;
+    display: list-item;
+    align-content: center;
+    margin-top: 10px;
+}
+
+.main-arrow {
+    border: 2px solid #00e0d0;
+    padding: 10px 20px;
+    margin-top: 60px;
+}
+
+.learn-btn {
+    color: white;
+    text-decoration: none;
+}
+
+.story-content {
+    display: flex;
+    padding: 100px;
+    justify-content: space-around;
+    align-items: center;
+
+
+
+
+}
+
+.img-content {
+    width: 300px;
+
+
+
+
+
+
+
+
+}
+
+.text-content {
+    width: 500px;
+
+
+}
+
+.our-story {
+    color: #413d4b;
+}
+
+.main-text p {
+    color: #97949c;
+}
+
+.learn-btn1 {
+    color: #00e0d0;
+    border: 1px solid #00e0d0;
+    padding: 10px 10px;
+    margin-top: 20px;
+    z-index: auto;
+
+}
+
+.play-content {
+    display: flex;
+    background: url(images/2PUT%20YOUR%20IMAGE%20HERE.png);
+    height: 550px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    align-content: space-between;
+    justify-content: center;
+}
+
+.play-overlay {
+    background-image: -moz-linear-gradient(0deg, rgb(9, 5, 47) 0%, rgb(49, 29, 94) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(9, 5, 47) 0%, rgb(49, 29, 94) 100%);
+    background-image: -ms-linear-gradient(0deg, rgb(9, 5, 47) 0%, rgb(49, 29, 94) 100%);
+    opacity: 0.6;
+    position: absolute;
+    width: 100%;
+    height: 550px;
+
+}
+
+.play-img {
+    border: 5px solid #fff;
+    border-radius: 50px;
+    width: 45px;
+    height: 50px;
+    color: #fff;
+    z-index: 5;
+    padding: 35px 35px;
+}
+
+.watch-our-story {
+    height: 50px;
+    color: #fff;
+    z-index: 5;
+}
+.expertise    {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #97949c;
+    padding-top: 25px;
+   
+  
+}
+.expertise p {
+    font-size: 20px;
+}
+.expertise h3:after {
+    content: "";
+    height: 2px;
+    background-color: #00e0d0;
+    display: list-item;
+}
+
+.expertise-content {
+	display: flex;
+    margin: 50px;
+    
+    
+}
+.element {
+    margin: 25px;
+    text-align: center;
+    padding: 25px;
+    color: #97949c;
+    
+}
+.expertise-content1 {
+    display: flex;
+    margin: 50px;
+}
+
+
+.footer {
+	display: flex;
+    position: absolute; 
+    justify-content: space-around;
+    align-items: center;
+    background: url(images/3PUT%20YOUR%20IMAGE%20HERE.png) no-repeat center;
+    height: 350px;
+    
+        
+}
+.footer-overlay {
+    background-image: -moz-linear-gradient(0deg, rgb(9, 5, 47) 0%, rgb(49, 29, 94) 100%);
+    background-image: -webkit-linear-gradient(0deg, rgb(9, 5, 47) 0%, rgb(49, 29, 94) 100%);
+    background-image: -ms-linear-gradient(0deg, rgb(9, 5, 47) 0%, rgb(49, 29, 94) 100%);
+    opacity: 0.6;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 350px;
+    
+}
+.logo-footer  {
+    margin-left: 90px;
+    color: aliceblue;
+    z-index: 1;
+    text-align: justify;
+    
+    
+}
+
+.our-studio {
+	color: aliceblue;
+    z-index: 1;
+    margin: 20px;
+   
+}
+.sayintach {
+	color: aliceblue;
+    z-index: 1;
+    padding-left: 4px;
+    margin: 13px;
+    padding-right: 40px;
+    
+    
+}
+.sayintach  input {
+    padding: 5px;
+    vertical-align: bottom;
+}
+.sayintach img {
+border-radius: 20px;
+    padding: 20px;
+    
+}
+
+
+
+
+      
